@@ -1,0 +1,102 @@
+@media (1000px < width) {
+    .ipInfo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .wrapper {
+        width: 1110px;
+        height: 160px;
+        padding: 35px;
+        display: flex;
+        position: relative;
+        transform: translateY(-50%);
+        border-radius: 15px;
+        box-shadow: 0 50px 50px -25px rgba(0, 0, 0, 0.108);
+
+    }
+
+    .ipInfoItem {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ipInfoSep {
+        margin: 0 32px;
+        width: 1px;
+        height: 75px;
+    }
+}
+
+@media (500px < width <= 1000px) {
+    .ipInfo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .wrapper {
+        width: 750px;
+        height: 175px;
+        padding: 35px;
+        display: flex;
+        position: relative;
+        transform: translateY(-50%);
+        border-radius: 15px;
+        box-shadow: 0 50px 50px -25px rgba(0, 0, 0, 0.108);
+
+    }
+
+    .ipInfoItem {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ipInfoSep {
+        margin: 0 32px;
+        width: 1px;
+        height: 75px;
+    }
+}
+
+@media ( width <= 500px) {
+    .ipInfo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .wrapper {
+        width: 260px;
+        height: 260px;
+        padding: 25px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        transform: translateY(-30%);
+        border-radius: 15px;
+
+    }
+
+    .ipInfoItem {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .ipInfoSep {
+       display: none;
+    }
+}

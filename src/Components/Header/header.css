@@ -1,0 +1,120 @@
+@media (500px < width) {
+    .header {
+        position: relative;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 35px;
+    }
+    
+    .headerBg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -10;
+    }
+    
+    .searchBar {
+        margin-top: 30px;
+        width: 550px;
+        height: 60px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .searchBarInput {
+        width: 450px;
+        height: 60px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        padding-left: 25px;
+        font-size: 18px;
+        font-family: var(--primaryFont);
+    }
+    
+    .searchBarInput::placeholder {
+        font-size: 18px;
+        opacity: 50%;
+        color: var(--heavyMetal);
+        font-weight: 400;
+        font-family: var(--primaryFont);
+    }
+    
+    .searchBarButton {
+        width: 60px;
+        height: 60px;
+        border-radius: 0 10px 10px 0;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    
+    .searchBarButton:hover {
+        background-color: #3F3F3F;
+    }
+}
+
+@media (width <= 500px) {
+    .header {
+        position: relative;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+    }
+    
+    .headerBg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -10;
+    }
+    
+    .searchBar {
+        margin-top: 30px;
+        width: 330px;
+        height: 50px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .searchBarInput {
+        width: 250px;
+        height: 50px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        padding-left: 25px;
+        font-size: 12px;
+        font-family: var(--primaryFont);
+    }
+    
+    .searchBarInput::placeholder {
+        font-size: 12px;
+        opacity: 50%;
+        color: var(--heavyMetal);
+        font-weight: 400;
+        font-family: var(--primaryFont);
+    }
+    
+    .searchBarButton {
+        width: 50px;
+        height: 50px;
+        border-radius: 0 10px 10px 0;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    
+}
