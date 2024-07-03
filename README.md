@@ -1,4 +1,6 @@
-https://geo.ipify.org ' den veri cektim. daha onceki projelerimden biriydi. canli demo ornegine aşağıdan ulaşabilirsiniz
+https://geo.ipify.org ' den veri cektim. daha onceki projelerimden biriydi. canli demo ornegine aşağıdan ulaşabilirsiniz. canlı demo olduğu için konsolo yazdırmadım.
+doğrudan siteye giriş yaparak test edebilirsiniz. hava durumu uygulamasında da https desteklemediği için verileri çekerken sorun oluştu ve canlıya yükleyemedim. bu yüzden ip adresi tespiti uygulaması yapmak istedim
+teşekkürler..
 
 # IP Tracker
 
