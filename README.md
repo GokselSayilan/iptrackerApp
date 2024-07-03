@@ -1,3 +1,5 @@
+https://geo.ipify.org ' den veri cektim. daha onceki projelerimden biriydi. canli demo ornegine aşağıdan ulaşabilirsiniz
+
 # IP Tracker
 
 ![App Screenshot](public/screenshot.png)
